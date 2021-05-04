@@ -1,5 +1,5 @@
 # SQLI-WinForms-CSharp
-Examples of how to do an SQL injection in Windows Forms applications from C#.
+Examples of how to do an SQL injection in Windows Forms applications using C#.
 
 [![Watch the video](https://i.imgur.com/pwocAB2.png)](https://youtu.be/6t5Cjgig11g)
 

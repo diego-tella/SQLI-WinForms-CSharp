@@ -24,4 +24,4 @@ You should never let the user add commands to your query without first validatin
 MySqlCommand comand = new MySqlCommand("SELECT nome FROM users WHERE id = "+TxtID.Text+";", connection);
 SELECT nome FROM users WHERE id = 1; drop table mytable;
 ```
-The malicious user would be breaking the line with a ";" and then log in by adding another SQL command that would be executed in your database, in which case, it would be deleting one of your tables. Unlike the non-vulnerable example, the malicious user would not be able to add a ";" to break the command.
+The malicious user would be breaking the line with a `;` and then log in by adding another SQL command that would be executed in your database, in which case, it would be deleting one of your tables. Unlike the non-vulnerable example, the malicious user would not be able to add a `;` to break the command.
